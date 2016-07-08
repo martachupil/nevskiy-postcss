@@ -4,7 +4,7 @@ module.exports = postcss.plugin('nss', function (opts) {
     opts = opts || {};
     var gvalues = {
       'абсолютли':'absolute',
-      'вотаквот': 'inherit'
+      'вотаквот': '!important'
     };
 
     // Work with options here
@@ -12,13 +12,16 @@ module.exports = postcss.plugin('nss', function (opts) {
     return function (css, result) {
     css.walkDecls( function(decl) {
 
-      // Detect keyword
-      var keyword = gvalues[decl.value];
-
       // Search for available keyword
-      if( typeof keyword !== 'undefined' ) {
-        decl.value = keyword;
+      var val = decl.value.toString();
+      
+      // Replace expressions
+      for(var key in gvalues) {
+        var reg = new RegExp(key);
+        val = val.replace( reg, gvalues[key] );
       }
+
+      decl.value = val.toString();
     });
 
     };

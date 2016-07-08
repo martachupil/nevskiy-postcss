@@ -5,13 +5,13 @@
 ```
 .nevskiy {
   position: абсолютли;
-  font-family: вотаквот;
+  font-family: 10px вотаквот;
 }
 ```
 **result.css** 
 ```
 .nevskiy {
   position: absolute;
-  font-family: inherit;
+  font-family:  10px !important;
 }
 ```
