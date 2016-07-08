@@ -1,0 +1,35 @@
+{
+  "name": "nevskiy-postcss",
+  "version": "1.0.0",
+  "description": "Поддержка цитат Александра Невского для PostCSS",
+  "keywords": [
+    "postcss",
+    "css",
+    "невский"
+  ],
+  "author": "Denis Sedchenko <ascii@live.ru>, Marta Chupil <mchupil@mail.ru>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martachupil/nevskiy-postcss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/martachupil/nevskiy-postcss/issues"
+  },
+  "homepage": "https://github.com/GITHUB_NAME/PLUGIN_NAME",
+  "dependencies": {
+    "postcss": "^5.0.21"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "eslint": "^2.10.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  },
+  "main": "index.js"
+}
