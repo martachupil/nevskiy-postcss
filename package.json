@@ -1,6 +1,6 @@
 {
   "name": "nevskiy-postcss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Поддержка цитат Александра Невского для PostCSS",
   "keywords": [
     "postcss",
