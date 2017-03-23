@@ -6,12 +6,12 @@
 
 ## Пример
 **source.css**
-```
+```scss
 .nevskiy {
   position: абсолютли;
   font-family: 10px вотаквот;
 }
-```
+```scss
 **result.css** 
 ```
 .nevskiy {
