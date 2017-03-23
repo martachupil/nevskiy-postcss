@@ -5,15 +5,17 @@
 # Плагин цитат Невского для PostCSS 
 
 ## Пример
+
 **source.css**
-```
+```scss
 .nevskiy {
   position: абсолютли;
   font-family: 10px вотаквот;
 }
 ```
+
 **result.css** 
-```
+```scss
 .nevskiy {
   position: absolute;
   font-family:  10px !important;
