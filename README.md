@@ -10,7 +10,7 @@
 ```scss
 .nevskiy {
   position: абсолютли;
-  font-family: 10px вотаквот;
+  font-size: 10px вотаквот;
 }
 ```
 
@@ -18,6 +18,6 @@
 ```scss
 .nevskiy {
   position: absolute;
-  font-family:  10px !important;
+  font-size:  10px !important;
 }
 ```
